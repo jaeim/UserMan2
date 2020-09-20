@@ -1,5 +1,5 @@
 # UserMan2
-Sample project based on MVC architecture in DB Programming class 
+Sample project for DB Programming class based on MVC architecture 
 
 __주의: 먼저 우측 상단의 Fork 버튼을 클릭하여 이 리파지토리를 본인의 Github 사용자 계정으로 Fork(복사)한 후 사용하기 바랍니다.__
 
