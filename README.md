@@ -1,38 +1,38 @@
 # UserMan2
-Sample MVC project for DBP class in 2019-2 
+Sample project based on MVC architecture in DB Programming class 
 
-__ÁÖÀÇ: ¸ÕÀú ¿ìÃø »ó´ÜÀÇ Fork ¹öÆ°À» Å¬¸¯ÇÏ¿© ÀÌ ¸®ÆÄÁöÅä¸®¸¦ º»ÀÎÀÇ Github »ç¿ëÀÚ °èÁ¤À¸·Î Fork(º¹»ç)ÇÑ ÈÄ »ç¿ëÇÏ±â ¹Ù¶ø´Ï´Ù.__
+__ì£¼ì˜: ë¨¼ì € ìš°ì¸¡ ìƒë‹¨ì˜ Fork ë²„íŠ¼ì„ í´ë¦­í•˜ì—¬ ì´ ë¦¬íŒŒì§€í† ë¦¬ë¥¼ ë³¸ì¸ì˜ Github ì‚¬ìš©ì ê³„ì •ìœ¼ë¡œ Fork(ë³µì‚¬)í•œ í›„ ì‚¬ìš©í•˜ê¸° ë°”ëë‹ˆë‹¤.__
 
-### Eclipse¿¡ importÇÏ´Â ¹æ¹ı (local repository »ı¼º)
+### Eclipseì— importí•˜ëŠ” ë°©ë²• (local repository ìƒì„±)
 
 File >> Import... >> Git - Projects from Git >> Clone URI >>  
-forkµÈ  URI ÀÔ·Â(¿¹: https://github.com/your_Github_username/UserMan2.git), username & password ÀÔ·Â >>
-¼¼ °¡Áö branch¸¦ ¸ğµÎ ¼±ÅÃ >>   
-»ı¼ºÇÒ local repository °æ·Î ÀÔ·Â(¿¹: C:\Users\»ç¿ëÀÚ\git\UserMan2) >>  
-"Importing existing Eclipse projects" (Ã¹¹øÂ° ¿É¼Ç) ¼±ÅÃ >> Finish  
+forkëœ  URI ì…ë ¥(ì˜ˆ: https://github.com/your_Github_username/UserMan2.git), username & password ì…ë ¥ >>
+ì„¸ ê°€ì§€ branchë¥¼ ëª¨ë‘ ì„ íƒ >>   
+ìƒì„±í•  local repository ê²½ë¡œ ì…ë ¥(ì˜ˆ: C:\Users\ì‚¬ìš©ì\git\UserMan2) >>  
+"Importing existing Eclipse projects" (ì²«ë²ˆì§¸ ì˜µì…˜) ì„ íƒ >> Finish  
 
 ### Branches 
-´ÙÀ½°ú °°Àº  ¼¼ °¡Áö branch°¡ Á¸ÀçÇÔ 
+ë‹¤ìŒê³¼ ê°™ì€  ì„¸ ê°€ì§€ branchê°€ ì¡´ì¬í•¨ 
  
 1. master (UserMan2)
 2. with_Community (UserMan3)
 3. with_Community_using Ajax (UserMan3a)
  
-Ã³À½ local repository¿¡ importµÇ´Â branch´Â masterÀÌ¸ç, ´Ù¸¥ branchµéÀ» importÇÏ±â À§ÇØ¼­´Â EclipseÀÇ Git perspective¸¦ ÀÌ¿ë 
+ì²˜ìŒ local repositoryì— importë˜ëŠ” branchëŠ” masterì´ë©°, ë‹¤ë¥¸ branchë“¤ì„ importí•˜ê¸° ìœ„í•´ì„œëŠ” Eclipseì˜ Git perspectiveë¥¼ ì´ìš© 
 (Window >> Perspective >> Open Perspective >> Other... >> Git)
  
-Git Repositories Ã¢¿¡¼­ 
-UserMan2 - Branches - Remote Tracking ¾Æ·¡ÀÇ branch Áß ÇÏ³ª¸¦ ¼±ÅÃÇÏ¿© ´õºíÅ¬¸¯ >> Checkout as New Local Branch ½ÇÇà
+Git Repositories ì°½ì—ì„œ 
+UserMan2 - Branches - Remote Tracking ì•„ë˜ì˜ branch ì¤‘ í•˜ë‚˜ë¥¼ ì„ íƒí•˜ì—¬ ë”ë¸”í´ë¦­ >> Checkout as New Local Branch ì‹¤í–‰
  
-branchµéÀÌ local¿¡ ÀúÀåµÈ ÈÄ¿¡´Â Local ¾Æ·¡ÀÇ branch ÀÌ¸§À» ´õºíÅ¬¸¯ÇÏ¿© ÀüÈ¯(checkout)ÇÏ°Å³ª, 
-¶Ç´Â Java EE perspective¿¡¼­ Project Explorer Ã¢¿¡¼­ ÇÁ·ÎÁ§Æ® ÀÌ¸§À» ¸¶¿ì½º ¿ìÅ¬¸¯ÇÑ ÈÄ  Team >> Switch To >> branch ÀÌ¸§À» ¼±ÅÃÇÏ¿© ÀÌµ¿ °¡´É  
+branchë“¤ì´ localì— ì €ì¥ëœ í›„ì—ëŠ” Local ì•„ë˜ì˜ branch ì´ë¦„ì„ ë”ë¸”í´ë¦­í•˜ì—¬ ì „í™˜(checkout)í•˜ê±°ë‚˜, 
+ë˜ëŠ” Java EE perspectiveì—ì„œ Project Explorer ì°½ì—ì„œ í”„ë¡œì íŠ¸ ì´ë¦„ì„ ë§ˆìš°ìŠ¤ ìš°í´ë¦­í•œ í›„  Team >> Switch To >> branch ì´ë¦„ì„ ì„ íƒí•˜ì—¬ ì´ë™ ê°€ëŠ¥  
  
-### Git »ç¿ë¹ı ÂüÁ¶
+### Git ì‚¬ìš©ë²• ì°¸ì¡°
 
-À±¿õ½Ä, ¸¸µé¸é¼­ ¹è¿ì´Â Git+GitHub ÀÔ¹®, ÇÑºû¹Ìµğ¾î, 2015.  
-¿À¿ÀÃ÷Ä« È÷·ÎÅ°, ¼Ò¼È ÄÚµùÀ¸·Î ÀÌ²ô´Â GitHub ½ÇÃµ ±â¼ú, Á¦ÀÌÆà, 2015.  
+ìœ¤ì›…ì‹, ë§Œë“¤ë©´ì„œ ë°°ìš°ëŠ” Git+GitHub ì…ë¬¸, í•œë¹›ë¯¸ë””ì–´, 2015.  
+ì˜¤ì˜¤ì¸ ì¹´ íˆë¡œí‚¤, ì†Œì…œ ì½”ë”©ìœ¼ë¡œ ì´ë„ëŠ” GitHub ì‹¤ì²œ ê¸°ìˆ , ì œì´í, 2015.  
 https://backlog.com/git-tutorial/kr/  
-https://nolboo.kim/blog/2013/10/06/github-for-beginner/ ¹× ¸µÅ©µÈ ¹®¼­µé  
+https://nolboo.kim/blog/2013/10/06/github-for-beginner/ ë° ë§í¬ëœ ë¬¸ì„œë“¤  
 http://itmir.tistory.com/461  
 http://jwgye.tistory.com/38?category=689862  
-±×¹ÛÀÇ ¿Â¶óÀÎ ÀÚ·áµé  
+ê·¸ë°–ì˜ ì˜¨ë¼ì¸ ìë£Œë“¤  
